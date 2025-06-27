@@ -1,5 +1,5 @@
 # Byte-compiled / optimized / DLL files
-_pycache_/
+__pycache__/
 *.py[cod]
 *$py.class
 
@@ -42,7 +42,7 @@ coverage.xml
 cover/
 
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow and github.com/pdm-project/pdm
-_pypackages_/
+__pypackages__/
 
 # Environments
 .env
@@ -52,3 +52,33 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+### IntelliJ IDEA ###
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### Eclipse ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+
+### macOS ###
+.DS_Store

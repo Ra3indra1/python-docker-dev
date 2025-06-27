@@ -1,0 +1,11 @@
+# Start from Alpine base image
+FROM alpine:latest
+
+# Add a label (optional)
+LABEL maintainer="rabin@example.com"
+
+# Run a command during build
+RUN echo "Hello from Alpine container!"
+
+# Default command when the container runs
+CMD ["echo", "Container is running!"]
