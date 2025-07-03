@@ -19,4 +19,8 @@ Consult Docker's [getting started](https://docs.docker.com/go/get-started-sharin
 docs for more detail on building and pushing.
 
 ### References
+HEAD
 * [Docker's Python guide](https://docs.docker.com/language/python/)
+
+* [Docker's Python guide](https://docs.docker.com/language/python/)
+2768f3bab4bf8f2f5418f401071293258343795d
